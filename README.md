@@ -1,2 +1,2 @@
-# Osiem-Osi-em
-Osiem Osi(em) by Adrian Kowalik. Pushed by Me
+# 8values.github.io
+The 8values Political Quiz measures individuals' political values, including Equality, Nation, Liberty, Tradition, Markets, World, Authority, and Progress.
