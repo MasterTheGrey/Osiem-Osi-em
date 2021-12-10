@@ -50,7 +50,7 @@ p.question {
     background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
-    font-size: 36pt;
+    font-size: 40pt;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ p.question {
 h1 {
     color: #222222;
     font-family: 'Montserrat', sans-serif;
-    font-size: 72pt;
+    font-size: 60pt;
     text-align: center;
     line-height: 72pt;
     margin-top: 0pt;
@@ -137,6 +137,9 @@ div.axis_name {
     margin: -2px auto;
     cursor: pointer;
 }
+
+
+
 .button:hover, .button:focus { background: #1687e0; }
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
@@ -157,11 +160,11 @@ div.axis_name {
     color: white;
     padding: 8pt;
     width: 10%;
-    min-width: 100pt;
+    min-width: 200pt;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 18pt;
+    font-size: 20pt;
     margin: -2px auto;
     cursor: pointer;
 }
@@ -282,4 +285,17 @@ span.weight-300 {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 1000px) {
+
+      .button{
+          font-size: 50pt;
+      }
+
+      .small_button, .small_button_off{
+          font-size: 40pt;
+           min-width: 300pt
+      }
+      
 }
